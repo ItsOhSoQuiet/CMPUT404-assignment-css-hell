@@ -1,4 +1,4 @@
-/* css for 1.html */
+/* css for 1.html 
 body { margin:5%; background:#faebd0; text-align:justify}
 P { text-indent: 1em; margin-top: .75em; margin-bottom: .75em; }
 H1,H2,H3,H4,H5,H6 { text-align: center; margin-left: 15%; margin-right: 15%; }
@@ -27,8 +27,11 @@ div.middle { margin-left: 20%; margin-right: 20%; text-align: justify; }
 p.pfirst, p.noindent {text-indent: 0}
 span.dropcap         { float: left; margin: 0 0.1em 0 0; line-height: .8 }
 pre        { font-style: italic; font-size: 90%; margin-left: 10%;}
+*/
 
-/* CSS for 3.html */
+
+
+/* CSS for 3.html
 p {margin-top:.75em;text-align:justify;margin-bottom:.75em;text-indent:2%;}
 
 . c {text-align:center;text-indent:0%;font-weight:bold;}
@@ -50,3 +53,4 @@ a:link {background-color:#ffffff;color:blue;text-decoration:none;}
 a:visited {background-color:#ffffff;color:purple;text-decoration:none;}
 
 a:hover {background-color:#ffffff;color:#FF0000;text-decoration:underline;}
+*/
