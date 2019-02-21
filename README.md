@@ -24,6 +24,7 @@ Code is licensed under the Apache 2.0 license.
 Matthew Kluk took from: 
 
 -https://www.loriswebs.com/css-border-images.html for putting a border on images.
+
 -https://www.w3.org/Style/Examples/007/center.en.html for centering images
 
 
