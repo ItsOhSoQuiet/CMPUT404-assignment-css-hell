@@ -54,3 +54,46 @@ a:visited {background-color:#ffffff;color:purple;text-decoration:none;}
 
 a:hover {background-color:#ffffff;color:#FF0000;text-decoration:underline;}
 */
+
+body{
+  margin: 10%;
+  background: #D9C68C;
+}
+h1{
+  text-align: center;
+  font-family: fantasy;
+}
+
+h2{
+  text-align: center;
+  font-family: fantasy;
+}
+
+h3{
+  text-align: center;
+  font-family: fantasy;
+}
+
+h4{
+  text-align: center;
+  font-family: fantasy;
+}
+
+h5{
+  text-align: center;
+  font-family: fantasy;
+}
+
+h6{
+  text-align: center;
+  font-family: fantasy;
+}
+
+/* Centering inspired by https://www.w3.org/Style/Examples/007/center.en.html */
+/* Border rewritten from a base from https://www.loriswebs.com/css-border-images.html */
+img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border: 2px solid black;
+}
