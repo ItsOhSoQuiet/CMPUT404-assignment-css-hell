@@ -3,18 +3,31 @@
     <head>
         <title>Matthew Kluk's Awesometacular Website!</title>
         <style type="text/css">
+          .sidebar{
+            height: 100%; /* Full-height: remove this if you want "auto" height */
+            width: 160px; /* Set the width of the sidebar */
+            position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+            z-index: 1; /* Stay on top */
+            top: 0; /* Stay at the top */
+            left: 0;
+            background-color: #111; /* Black */
+            overflow-x: hidden; /* Disable horizontal scroll */
+            padding-top: 20px;
+          }
         </style>
     </head>
     <body>
-            <div id="profile">
-                
-            </div>
-            <div id="history">
+        <!-- Sidebar help taken from https://www.w3schools.com/howto/howto_css_fixed_sidebar.asp -->
+        <div class="sidebar"></div>
+        <div id="profile">
 
-            </div>
-            <div id="employee">
+        </div>
+        <div id="history">
 
-            </div>
+        </div>
+        <div id="employee">
+
+        </div>
         <!-- Taken from https://creativecommons.org/choose/ -->
         <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">
             <img alt="Creative Commons Licence" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" />
