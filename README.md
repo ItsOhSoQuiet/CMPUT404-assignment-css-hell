@@ -21,7 +21,7 @@ repository and (C) 2013 Abram Hindle visibile in the text.
 
 Code is licensed under the Apache 2.0 license.
 
-Matthew Kluk took from: 
+<h3>Matthew Kluk took from:</h3> 
 
 -https://www.loriswebs.com/css-border-images.html for putting a border on images.
 
@@ -30,14 +30,15 @@ Matthew Kluk took from:
 -https://creativecommons.org/choose/ for getting the Creative Commons HTML.
 
 
-I also used these fonts:
+<h3>I also used these fonts:</h3>
 
 -Sorts Mill Goudy by Barry Schwartz, licensed under the Open Font License: https://fonts.google.com/specimen/Sorts+Mill+Goudy
 
 -Quintessential by Astigmatic, licensed under the Open Font License: https://fonts.google.com/specimen/Quintessential
 
 
-I used this clipart:
+<h3>I used this clipart:</h3>
+
 -https://openclipart.org/detail/17391/computer licensed under CC0 1.0 Universal (CC0 1.0)
 Public Domain Dedication
 
