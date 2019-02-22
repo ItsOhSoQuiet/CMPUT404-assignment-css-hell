@@ -25,7 +25,15 @@ Matthew Kluk took from:
 
 -https://www.loriswebs.com/css-border-images.html for putting a border on images.
 
--https://www.w3.org/Style/Examples/007/center.en.html for centering images
+-https://www.w3.org/Style/Examples/007/center.en.html for centering images.
+
+-https://creativecommons.org/choose/ for getting the Creative Commons HTML.
+
+I also used these fonts:
+
+-Sorts Mill Goudy by Barry Schwartz, licensed under the Open Font License: https://fonts.google.com/specimen/Sorts+Mill+Goudy
+
+-Quintessential by Astigmatic, licensed under the Open Font License: https://fonts.google.com/specimen/Quintessential
 
 
 Modifications to Project Gutenberg Books
