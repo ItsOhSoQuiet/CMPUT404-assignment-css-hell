@@ -29,11 +29,17 @@ Matthew Kluk took from:
 
 -https://creativecommons.org/choose/ for getting the Creative Commons HTML.
 
+
 I also used these fonts:
 
 -Sorts Mill Goudy by Barry Schwartz, licensed under the Open Font License: https://fonts.google.com/specimen/Sorts+Mill+Goudy
 
 -Quintessential by Astigmatic, licensed under the Open Font License: https://fonts.google.com/specimen/Quintessential
+
+
+I used this clipart:
+-https://openclipart.org/detail/17391/computer licensed under CC0 1.0 Universal (CC0 1.0)
+Public Domain Dedication
 
 
 Modifications to Project Gutenberg Books
