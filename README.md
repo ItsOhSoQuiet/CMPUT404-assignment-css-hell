@@ -37,10 +37,12 @@ Code is licensed under the Apache 2.0 license.
 -Quintessential by Astigmatic, licensed under the Open Font License: https://fonts.google.com/specimen/Quintessential
 
 
-<h3>I used this clipart:</h3>
+<h3>I used this art:</h3>
 
--https://openclipart.org/detail/17391/computer licensed under CC0 1.0 Universal (CC0 1.0)
+-Computer By ytknick https://openclipart.org/detail/17391/computer licensed under CC0 1.0 Universal (CC0 1.0)
 Public Domain Dedication
+
+-Red_oak_pxr128.tif from Pixar https://renderman.pixar.com/pixar-one-twenty-eight licensed under Creative Commons Attribution 4.0 International License
 
 
 Modifications to Project Gutenberg Books

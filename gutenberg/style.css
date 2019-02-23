@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Quintessential|Sorts+Mill+Goudy');
+
 /* css for 1.html 
 body { margin:5%; background:#faebd0; text-align:justify}
 P { text-indent: 1em; margin-top: .75em; margin-bottom: .75em; }
@@ -59,6 +60,7 @@ a:hover {background-color:#ffffff;color:#FF0000;text-decoration:underline;}
 body{
   margin: 10%;
   background: #D9C68C;
+  text-align: justify;
   /* font-family: "Sorts Mill Goudy", serif; */
 }
 h1{
@@ -116,6 +118,9 @@ img{
 p{
   font-family: "Sorts Mill Goudy", serif;
   text-indent: 2%;
+  margin-top: .75em;
+  margin-bottom: .75em;
+  line-height: 2.5em;
 }
 .c{
   text-align: center;
@@ -128,4 +133,24 @@ p{
 a{
   color: red;
   text-align: center;
+}
+
+span.dropcap{
+  float: left; 
+  margin: 0 0 .5em 0; 
+  line-height: .8;
+}
+
+pre{
+  font-style: italic;
+}
+
+div.fig{ 
+  display:block; 
+  margin:0 auto; 
+  text-align:center; 
+}
+
+a:hover{
+  color: teal;
 }
