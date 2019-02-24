@@ -29,12 +29,19 @@ Code is licensed under the Apache 2.0 license.
 
 -https://creativecommons.org/choose/ for getting the Creative Commons HTML.
 
+-https://www.w3schools.com/css/css3_gradients.asp for learing how to do linear gradients.
+
+-https://www.inmotionhosting.com/support/edu/website-design/insert-images-website/align-float-images-css
+for aligning images next to text.
+
 
 <h3>I also used these fonts:</h3>
 
 -Sorts Mill Goudy by Barry Schwartz, licensed under the Open Font License: https://fonts.google.com/specimen/Sorts+Mill+Goudy
 
 -Quintessential by Astigmatic, licensed under the Open Font License: https://fonts.google.com/specimen/Quintessential
+
+-Abril Fatface by TypeTogether, licensed under the Open Font License: https://fonts.google.com/specimen/Abril+Fatface
 
 
 <h3>I used this art:</h3>
