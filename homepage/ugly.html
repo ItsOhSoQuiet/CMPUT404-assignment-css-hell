@@ -2,6 +2,35 @@
 <html>
     <head>
         <title>Matthew Kluk's Awesometacular Website!</title>
+        <style>
+            a:hover{
+                color: lightskyblue;
+            }
+            header {
+                background-color: blue;
+            }
+            header h1{
+                font-family: "Comic Sans MS", cursive, sans-serif;
+                text-align: center;
+            }
+            header h3{
+                font-family: 'Comic Sans MS', cursive, sans-serif;
+                text-align: center;
+                margin-bottom: 2em;
+            }
+            header img{
+                float: right; 
+                margin: 0px 0px 15px 15px;
+                object-fit: contain;
+            }
+            .linkbox{
+                background-color: blue;
+            }
+            .linkbox a{
+                background-color: yellow;
+                text-align: center;
+            }
+        </style>
         <!--
         <style type="text/css">
           .sidebar{
@@ -20,60 +49,90 @@
     </head>
     <body>
         <!-- <div class="upper_head"></div> -->
-        <div class="header">
-                <h1 class="title">Matthew Kluk</h1>
-                <h3 class="subtitle">Developer, Writer, Team Player</h3>
-                <p class="links">
-                    <a href="#profile" class="linkbox">
-                        About Me
-                    </a>
-                    <a href="#history" class="linkbox">
-                        My History
-                    </a>
-                    <a href="#employee" class="linkbox">
-                        For Employers
-                    </a>
-                </p>
-                <img src="ytknick-Computer.png" alt="Computer displaying the word hello." width="25%" height="25%">
-            </div>
-            <!-- Sidebar help taken from https://www.w3schools.com/howto/howto_css_fixed_sidebar.asp -->
-            <div class="sidebar"></div>
-            <div id="profile">
-                <h3>About Me</h3>
-                <p>
-                    Matthew Kluk is a Computing Science student at the 
-                    University of Alberta in his final year of studies. 
-                    Throughout his studies and work experience, he has 
-                    done a variety of projects, from Android applications
-                    to web applications. In addition, as both an English
-                    minor, a former student journalist and a person who 
-                    had to write research reports for his IT job, he is 
-                    an efficient technical writer, who can write 
-                    documentation, manuals, reports, press releases, 
-                    Knowledge Base articles, etc. Matthew Kluk is loyal 
-                    and hardworking, and can work with any team there is.
-                </p>
-                <img src="personal_photo.png" alt="Matthew Kluk in front of a green background." width="25%" height="25%">
-                
-            </div>
-            <div id="history">
-                <ol>
-                    <li></li>
-                </ol>
-            </div>
-            <div id="employee">
-    
-            </div>
+        <!-- Taken from -->
+        <header>
+            <img src="ytknick-Computer.png" alt="Computer displaying the word hello." width="10%" height="10%">
+            <h1 class="title">Matthew Kluk</h1>
+            <h3 class="subtitle">Developer, Writer, Team Player</h3>
+        </header>
+        <nav class="linkbox">
+            <a href="#profile">
+                About Me
+            </a>
+            <a href="#history">
+                My History
+            </a>
+            <a href="#employee">
+                For Employers
+            </a>
+        </nav>
+        <!-- Sidebar help taken from https://www.w3schools.com/howto/howto_css_fixed_sidebar.asp -->
+        <div class="sidebar"></div>
+        <div id="profile">
+            <h2>About Me</h2>
+            <p>
+                Matthew Kluk is a Computing Science student at the 
+                University of Alberta in his final year of studies. 
+                Throughout his studies and work experience, he has 
+                done a variety of projects, from Android applications
+                to web applications. In addition, as both an English
+                minor, a former student journalist and a person who 
+                had to write research reports for his IT job, he is 
+                an efficient technical writer, who can write 
+                documentation, manuals, reports, press releases, 
+                Knowledge Base articles, etc. Matthew Kluk is loyal 
+                and hardworking, and can work with any team there is.
+            </p>
+            <img src="personal_photo.png" alt="Matthew Kluk in front of a green background." width="10%" height="10%">
             
-            <footer>
-                <!-- Taken from https://creativecommons.org/choose/ -->
-                <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">
-                    <img alt="Creative Commons Licence" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" />
-                </a>
-                <br />This work is licensed under a 
-                <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">
-                    Creative Commons Attribution-ShareAlike 4.0 International license
-                </a>.
-            </footer>
+        </div>
+        <div id="history">
+            <h2>My History</h2>
+            <ul>
+                <li>
+                    <strong>
+                        BSc from University of Alberta
+                    </strong> - Computing Science Major, English Minor - 
+                    <i>
+                        to be convocated November 2019
+                    </i>
+                </li>
+                <li>
+                    <strong>
+                        Junior Research Analyst
+                    </strong> - Science Research Information Technology, University of Alberta - 
+                    <i>
+                        January 2018-December 2018
+                    </i>
+                </li>
+                <li>Current Co-Developer of 
+                    <a href="https://github.com/CMPUT404W19T3/NewPee" target="_break">
+                        NewPee
+                    </a>, an independent social network.
+                </li> 
+                <li>Co-Developer of 
+                    <a href="https://github.com/CMPUT301F17T27/NuMe" target="_break">
+                        NuMe
+                    </a>, an Android habit tracker app.
+                </li> 
+            </ol>
+        </div>
+        <div id="employee">
+            <h2>For Employers</h2>
+            <p>
+
+            </p>
+        </div>
+        
+        <footer>
+            <!-- Taken from https://creativecommons.org/choose/ -->
+            <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">
+                <img alt="Creative Commons Licence" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" />
+            </a>
+            <br />This work is licensed under a 
+            <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">
+                Creative Commons Attribution-ShareAlike 4.0 International license
+            </a>.
+        </footer>
     </body>
 </html>

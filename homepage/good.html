@@ -1,7 +1,32 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Matthew Kluk - Developer, Writer, Team Player</title>
+        <title>
+            Matthew Kluk - Developer, Writer, Team Player
+        </title>
+        <link href="https://fonts.googleapis.com/css?family=Abril+Fatface" rel="stylesheet">
+        <style>
+            a:hover{
+                color: lightskyblue;
+            }
+            header {
+                background-color: blue;
+            }
+            header h1{
+                font-family: 'Abril Fatface', cursive;
+                text-align: center;
+            }
+            header h3{
+                font-family: 'Abril Fatface', cursive;
+                text-align: center;
+                margin-bottom: 2em;
+            }
+            header img{
+                float: right; 
+                margin: 0px 0px 15px 15px;
+                object-fit: contain;
+            }
+        </style>
         <!--
         <style type="text/css">
           body{
@@ -31,26 +56,28 @@
     </head>
     <body>
         <!-- <div class="upper_head"></div> -->
-        <div class="header">
+        <!-- Taken from -->
+        <header>
+            <img src="ytknick-Computer.png" alt="Computer displaying the word hello." width="10%" height="10%">
             <h1 class="title">Matthew Kluk</h1>
             <h3 class="subtitle">Developer, Writer, Team Player</h3>
-            <p class="links">
-                <a href="#profile" class="linkbox">
-                    About Me
-                </a>
-                <a href="#history" class="linkbox">
-                    My History
-                </a>
-                <a href="#employee" class="linkbox">
-                    For Employers
-                </a>
-            </p>
-            <img src="ytknick-Computer.png" alt="Computer displaying the word hello." width="25%" height="25%">
-        </div>
+        </header>
+        <nav class="linkbox">
+            <a href="#profile">
+                About Me
+            </a>
+            <a href="#history">
+                My History
+            </a>
+            <a href="#employee">
+                For Employers
+            </a>
+        </p>
+        </nav>
         <!-- Sidebar help taken from https://www.w3schools.com/howto/howto_css_fixed_sidebar.asp -->
         <div class="sidebar"></div>
         <div id="profile">
-            <h3>About Me</h3>
+            <h2>About Me</h2>
             <p>
                 Matthew Kluk is a Computing Science student at the 
                 University of Alberta in his final year of studies. 
@@ -64,19 +91,45 @@
                 Knowledge Base articles, etc. Matthew Kluk is loyal 
                 and hardworking, and can work with any team there is.
             </p>
-            <img src="personal_photo.png" alt="Matthew Kluk in front of a green background." width="25%" height="25%">
+            <img src="personal_photo.png" alt="Matthew Kluk in front of a green background." width="10%" height="10%">
             
         </div>
         <div id="history">
-            <h3>My History</h3>
-            <ol>
-                <li>BSc from University of Alberta - Computing Science Major, English Minor - to be convocated November 2019</li>
-                <li>Junior Research Analyst - Science Research Information Technology, University of Alberta - January 2018-December 2018</li>
-                <li>Co-Developer of <a href="https://github.com/CMPUT301F17T27/NuMe" target="_break">NuMe</a>, an Android habit tracker app.</li> 
+            <h2>My History</h2>
+            <ul>
+                <li>
+                    <strong>
+                        BSc from University of Alberta
+                    </strong> - Computing Science Major, English Minor - 
+                    <i>
+                        to be convocated November 2019
+                    </i>
+                </li>
+                <li>
+                    <strong>
+                        Junior Research Analyst
+                    </strong> - Science Research Information Technology, University of Alberta - 
+                    <i>
+                        January 2018-December 2018
+                    </i>
+                </li>
+                <li>Current Co-Developer of 
+                    <a href="https://github.com/CMPUT404W19T3/NewPee" target="_break">
+                        NewPee
+                    </a>, an independent social network.
+                </li> 
+                <li>Co-Developer of 
+                    <a href="https://github.com/CMPUT301F17T27/NuMe" target="_break">
+                        NuMe
+                    </a>, an Android habit tracker app.
+                </li> 
             </ol>
         </div>
         <div id="employee">
+            <h2>For Employers</h2>
+            <p>
 
+            </p>
         </div>
         
         <footer>
