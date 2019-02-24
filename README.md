@@ -34,6 +34,8 @@ Code is licensed under the Apache 2.0 license.
 -https://www.inmotionhosting.com/support/edu/website-design/insert-images-website/align-float-images-css
 for aligning images next to text.
 
+-https://stackoverflow.com/questions/9452969/position-a-div-element-above-another-one for removing margins.
+
 
 <h3>I also used these fonts:</h3>
 
