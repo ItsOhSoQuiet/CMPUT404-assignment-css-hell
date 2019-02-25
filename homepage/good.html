@@ -7,6 +7,9 @@
     </title>
     <link href="https://fonts.googleapis.com/css?family=Abril+Fatface" rel="stylesheet">
     <style>
+        body{
+            background-color: lightblue;
+        }
         a:hover {
             color: lightskyblue;
         }
@@ -15,7 +18,8 @@
             background-color: blue;
         }
 
-        header h1, header h3 {
+        header h1,
+        header h3 {
             font-family: 'Abril Fatface', cursive;
             text-align: center;
             color: white;
@@ -40,6 +44,25 @@
         .linkbox a:hover {
             color: blue;
         }
+        .sidebar{
+            background-color: lightgrey;
+            width: 300px;
+            float: right;
+            margin: 20px;
+        }
+
+        .profile{
+            overflow: auto;
+        }
+        .sidebar h3{
+            text-align: center;
+        }
+
+        .image{
+            float: left;
+            margin: 20px;
+        }
+
     </style>
     <!--
         <style type="text/css">
@@ -120,74 +143,79 @@
             </li>
         </ul>
     </div>
-    <div id="profile" class="profile">
-        <h2>About Me</h2>
-        <p>
-            Matthew Kluk is a Computing Science student at the
-            University of Alberta in his final year of studies.
-            Throughout his studies and work experience, he has
-            done a variety of projects, from Android applications
-            to web applications. In addition, as both an English
-            minor, a former student journalist and a person who
-            had to write research reports for his IT job, he is
-            an efficient technical writer, who can write
-            documentation, manuals, reports, press releases,
-            Knowledge Base articles, etc. Matthew Kluk is loyal
-            and hardworking, and can work with any team there is.
-        </p>
-        <img src="personal_photo.png" alt="Matthew Kluk in front of a green background." width="10%" height="10%">
-
-    </div>
-    <div id="history">
-        <h2>My History</h2>
-        <ul>
-            <li>
-                <strong>
-                    BSc from University of Alberta
-                </strong> - Computing Science Major, English Minor -
-                <i>
-                    to be convocated November 2019
-                </i>
-            </li>
-            <li>
-                <strong>
-                    Junior Research Analyst
-                </strong> - Science Research Information Technology, University of Alberta -
-                <i>
-                    January 2018-December 2018
-                </i>
-            </li>
-            <li>
-                <strong>
-                    Trivia Night Host
-                </strong> - Room at the Top, University of Alberta -
-                <i>
-                    September 2016-April 2018
-                </i>
-            </li>
-            <li>Current Co-Developer of
-                <a href="https://github.com/CMPUT404W19T3/NewPee" target="_break">
-                    NewPee
-                </a>, an independent social network.
-            </li>
-            <li>Co-Developer of
-                <a href="https://github.com/CMPUT301F17T27/NuMe" target="_break">
-                    NuMe
-                </a>, an Android habit tracker app.
-            </li>
-            </ol>
-    </div>
-    <div id="employee">
-        <h2>For Employers</h2>
-        <p>
-            Matthew Kluk, throughout both his studies, his work, and his life
-            experiences, has grown to be a loyal, caring worker. He is respectful
-            and works well with a team. He has experience in software engineering,
-            database system management, reinforcement learning and artificial neural
-            networks, troubleshooting computer issues, writing research reports, and,
-            most importantly, working with people. Not only will Matthew Kluk help fix
-            your issue, but he will do it with empathy and respect.
-        </p>
+    <div class="content">
+        <div id="profile" class="profile">
+            <img src="personal_photo.png" alt="Matthew Kluk in front of a green background." width="10%" height="10%"
+            class="image">
+            <div class="text">
+                <h2>About Me</h2>
+                <p>
+                    Matthew Kluk is a Computing Science student at the
+                    University of Alberta in his final year of studies.
+                    Throughout his studies and work experience, he has
+                    done a variety of projects, from Android applications
+                    to web applications. In addition, as both an English
+                    minor, a former student journalist and a person who
+                    had to write research reports for his IT job, he is
+                    an efficient technical writer, who can write
+                    documentation, manuals, reports, press releases,
+                    Knowledge Base articles, etc. Matthew Kluk is loyal
+                    and hardworking, and can work with any team there is.
+                </p>
+            </div>
+            <div style="clear: both;"></div>
+        </div>
+        <div id="history" class="history">
+            <h2>My History</h2>
+            <ul>
+                <li>
+                    <strong>
+                        BSc from University of Alberta
+                    </strong> - Computing Science Major, English Minor -
+                    <i>
+                        to be convocated November 2019
+                    </i>
+                </li>
+                <li>
+                    <strong>
+                        Junior Research Analyst
+                    </strong> - Science Research Information Technology, University of Alberta -
+                    <i>
+                        January 2018-December 2018
+                    </i>
+                </li>
+                <li>
+                    <strong>
+                        Trivia Night Host
+                    </strong> - Room at the Top, University of Alberta -
+                    <i>
+                        September 2016-April 2018
+                    </i>
+                </li>
+                <li>Current Co-Developer of
+                    <a href="https://github.com/CMPUT404W19T3/NewPee" target="_break">
+                        NewPee
+                    </a>, an independent social network.
+                </li>
+                <li>Co-Developer of
+                    <a href="https://github.com/CMPUT301F17T27/NuMe" target="_break">
+                        NuMe
+                    </a>, an Android habit tracker app.
+                </li>
+                </ol>
+        </div>
+        <div id="employee" class="employee">
+            <h2>For Employers</h2>
+            <p>
+                Matthew Kluk, throughout both his studies, his work, and his life
+                experiences, has grown to be a loyal, caring worker. He is respectful
+                and works well with a team. He has experience in software engineering,
+                database system management, reinforcement learning and artificial neural
+                networks, troubleshooting computer issues, writing research reports, and,
+                most importantly, working with people. Not only will Matthew Kluk help fix
+                your issue, but he will do it with empathy and respect.
+            </p>
+        </div>
     </div>
 
     <footer>
